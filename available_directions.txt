@@ -53,11 +53,5 @@ stylespace_directions:
     glasses             |     remove glasses    |   [-10; 10]   
     gender              |     add femininity    |   [-10; 7]    | better use global mapper
 
-You can alse use directions from text prompts via StyleClip Global Mapper (https://arxiv.org/abs/2103.17249).
-Such directions look as follows: "styleclip_global_{neutral prompt}_{target prompt}_{disentanglement}" where
-neutral prompt -- some neutral description of the original image (e.g. "a face")
-target prompt -- text that contains the desired edit (e.g. "a smilling face")
-disentanglement -- positive number, the more this attribute - the more related attributes will also be changed (e.g. 
-for grey hair editing, wrinkle, skin colour and glasses may also be edited)
 
 Example: "styleclip_global_a face_a face with black hair_0.18"
